@@ -31,4 +31,10 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'interswitch' => [
+        'client_id' => env('INTERSWITCH_CLIENT_ID'),
+        'client_secret' => env('INTERSWITCH_CLIENT_SECRET'),
+        'base_url' => env('INTERSWITCH_BASE_URL')
+    ]
+
 ];
