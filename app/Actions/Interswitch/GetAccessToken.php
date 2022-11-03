@@ -18,7 +18,6 @@ class GetAccessToken
     public function getToken(string $authorizationCode)
     {
 
-        
         $baseUrl = config('services.interswitch.base_url');
         
         try {
